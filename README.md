@@ -1,9 +1,19 @@
-# Sepsis immunometabolic failure endotype (KLRF1+ NK-cell readout)
+# Sepsis immunometabolic failure endotype
 
-Analysis scripts for the manuscript:
+Analysis scripts for two manuscripts from the same research program
+(immunometabolic endotyping in sepsis), both by Kun He et al.:
 
-**"An Immunometabolic Failure Endotype in Sepsis Is Characterized by Depletion of KLRF1-Expressing NK Cells"**
-Kun He et al. (under review)
+1. **`scripts/` — "An Immunometabolic Failure Endotype in Sepsis Is
+   Characterized by Depletion of KLRF1-Expressing NK Cells"** (under
+   review): quadrant classification (immune x metabolic axes), KLRF1+
+   NK-cell mechanism, pneumonia-adjusted survival analyses.
+
+2. **`mps/` — "A 17-Gene Mitoxyperilysis Program Score Identifies an
+   Immunometabolic Endotype with Independent Prognostic Value in Sepsis"**
+   (under review, Theranostics): 17-gene MPS ssGSEA score
+   (immune-sensing + mTORC2-regulation + death-execution modules),
+   four-cohort validation, SRS interaction, MR, and single-cell
+   confirmation. See `mps/README.md`.
 
 This repository contains the R scripts used to define and validate an
 immunometabolic failure endotype (Q1) in sepsis using a two-axis
